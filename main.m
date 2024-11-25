@@ -44,6 +44,7 @@ for numforNoiseVar = 1:5
             % 에러 누적
             Error = Error + Position_Error_ToA;
             Error_LPF = Error_LPF + Position_Error_LPF;
+            randn;
         end
     end
 
